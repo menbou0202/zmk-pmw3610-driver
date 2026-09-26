@@ -1,3 +1,15 @@
+# Legacy PMW3610 driver for ZMK
+
+> **Archived / legacy:** This repository is kept available for older Nape
+> configurations and forks that may still refer to it. It is not used by the
+> current [`zmk-config-nape` main or `console-beta` branches](https://github.com/menbou0202/zmk-config-nape).
+> For current Nape firmware, use
+> [`zmk-pmw3610-driver-nape`](https://github.com/menbou0202/zmk-pmw3610-driver-nape)
+> at the revision pinned in the config's `config/west.yml`. Do not swap an old
+> build to the new driver without also updating its ZMK/config versions.
+> The legacy `basic-driver` config branch is separate: it uses
+> `inorichi/zmk-pmw3610-driver`, not this fork.
+
 PMW3610 driver implementation for ZMK with at least Zephyr 3.5
 
 This work is based on [ufan's implementation](https://github.com/ufan/zmk/tree/support-trackpad) of the driver.
